@@ -2,8 +2,8 @@
 
 function monadicView(data) {
   var margin = {top: 75, right: 150, bottom: 25, left: 25},
-      width = 960 - margin.left - margin.right,
-      height = 800 - margin.top - margin.bottom;
+      width = 550 - margin.left - margin.right,
+      height = 350 - margin.top - margin.bottom;
 
   var svg = d3.select("#pannel1")
       .attr("width", width + margin.left + margin.right)
